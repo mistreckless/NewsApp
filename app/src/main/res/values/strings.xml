@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="edit_phone">Phone number:</string>
+    <string name="sign_in">Sign in</string>
+    <string name="news">Новости</string>
+    <string name="share">Share</string>
+    <string name="add_favorites">Добавить в избранное</string>
+    <string name="dev_about">О разработчике</string>
+    <string name="favorites">Избранное</string>
+    <string name="remove_favorites">Удалить из избранного</string>
+    <string name="facebook_id">1941965939414855</string>
+    <string name="dev_name">Федяй Иван Олегович</string>
+</resources>

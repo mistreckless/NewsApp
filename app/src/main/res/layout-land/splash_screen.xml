@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/news"
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name" />
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center"
+            android:paddingRight="8dp"
+            android:text="@string/edit_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img_thumb_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="+00000000000"
+            android:id="@+id/edt_phone"
+            android:maxLength="15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone" />
+
+        <Button
+            android:enabled="false"
+            android:layout_marginBottom="48dp"
+            android:layout_gravity="center"
+            android:id="@+id/btn_go"
+            android:text="@string/sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
